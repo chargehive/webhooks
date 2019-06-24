@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "name": "Money",
+  "description": "Representation of a financial amount",
+  "properties": {
+    "amount": {
+      "type": "number",
+      "description": "Amount of money, stored in lowest unit e.g. cents, penies, satoshi"
+    },
+    "currency": {
+      "type": "string",
+      "description": "Currency this amount is for, e.g. GBP, USD, BTC, CREDITS"
+    }
+  }
+}

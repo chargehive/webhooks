@@ -1,0 +1,33 @@
+{
+  "name": "chargeCreated",
+  "type": "object",
+  "properties": {
+    "chargeUuid": {
+      "type": "string",
+      "description": "Unique ID for the charge that has been created"
+    },
+    "chargeIntent": {
+      "type": "string",
+      "enum": [
+        "PROFILE_CREATE",
+        "METHOD_ADD",
+        "METHOD_REFRESH",
+        "CAPTURE",
+        "REFUND"
+      ],
+      "description": "The intent of this charge"
+    },
+    "contract": {
+      "enum": [
+        "NONE",
+        "PAYMENT",
+        "SUBSCRIPTION_INITIAL",
+        "SUBSCRIPTION_RENEWAL",
+        "ONECLICK"
+      ]
+    },
+    "amount": {
+      "$ref": "money.json"
+    }
+  }
+}
