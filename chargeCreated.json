@@ -28,6 +28,18 @@
     },
     "amount": {
       "$ref": "money.json"
+    },
+    "references": {
+      "type": "object",
+      "description": "A keyed array of references assigned to the charge"
+    },
+    "expiryTime": {
+      "type": "number",
+      "description": "Expiry time of the charge, output as the number of seconds since unix epoch"
+    },
+    "merchantReference": {
+      "type": "string",
+      "description": "Unique reference for this charge, as defined by the merchant"
     }
   }
 }
