@@ -33,7 +33,7 @@
     },
     "verification": {
       "type": "string",
-      "description": "Verification of the checksum and your verification key"
+      "description": "sha1 of the checksum + verificationKey"
     },
     "created": {
       "type": "number",
