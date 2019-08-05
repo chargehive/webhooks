@@ -9,9 +9,9 @@
     "chargeIntent": {
       "type": "string",
       "enum": [
-        "PROFILE_CREATE",
         "METHOD_ADD",
         "METHOD_REFRESH",
+        "METHOD_VERIFY",
         "CAPTURE",
         "REFUND"
       ],
