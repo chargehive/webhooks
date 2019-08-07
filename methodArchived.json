@@ -2,7 +2,7 @@
   "name": "methodArchived",
   "type": "object",
   "properties": {
-    "chargeUuid": {
+    "methodId": {
       "type": "string",
       "description": "Unique ID for the method that has been archived"
     }
