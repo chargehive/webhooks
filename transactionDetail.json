@@ -48,7 +48,7 @@
       "$ref": "money.json"
     },
     "wasSuccessful": {
-      "type": "bool",
+      "type": "boolean",
       "description": "True if the transaction was a succeess"
     },
     "transactionId": {
