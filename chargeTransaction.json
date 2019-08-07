@@ -16,6 +16,10 @@
         "PAYPAL"
       ]
     },
+    "paymentMethodId": {
+      "type": "string",
+      "description": "ID for the payment method token used"
+    },
     "paymentScheme": {
       "type": "string",
       "description": "Payment Scheme, e.g. Visa, MasterCard, PayPal Business"
