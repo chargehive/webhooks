@@ -50,6 +50,50 @@
         "PENDING_SUCCESS",
         "RETRY"
       ]
+    },
+    "requestedAmount": {
+      "$ref": "money.json"
+    },
+    "transactedAmount": {
+      "$ref": "money.json"
+    },
+    "contractType": {
+      "enum": [
+        "NONE",
+        "PAYMENT",
+        "SUBSCRIPTION_INITIAL",
+        "SUBSCRIPTION_RENEWAL",
+        "ONECLICK"
+      ]
+    },
+    "statementDescriptor": {},
+    "failureType": {
+      "enum": [
+        "NONE",
+        "SOFT",
+        "HARD"
+      ]
+    },
+    "verificationStatus": {
+      "enum": [
+        "NOT_CHECKED",
+        "PASSED",
+        "FAILED",
+        "CONTINUE"
+      ]
+    },
+    "liability": {
+      "enum": [
+        "UNKNOWN",
+        "MERCHANT",
+        "ISSUER"
+      ]
+    },
+    "details": {
+      "type": "array",
+      "items": {
+        "$ref": "transactionDetail.json"
+      }
     }
   }
 }

@@ -1,0 +1,26 @@
+{
+  "name": "threeDSResult",
+  "type": "object",
+  "properties": {
+    "eci": {
+      "type": "string",
+      "description": "3Ds Result - ECI"
+    },
+    "cavv": {
+      "type": "string",
+      "description": "3Ds Result - CAVV"
+    },
+    "xid": {
+      "type": "string",
+      "description": "3Ds Result - XID"
+    },
+    "enrollment": {
+      "type": "string",
+      "description": "3Ds Result - Enrollment"
+    },
+    "result": {
+      "type": "string",
+      "description": "3Ds Result - Result"
+    }
+  }
+}

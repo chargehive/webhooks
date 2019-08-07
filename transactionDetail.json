@@ -1,0 +1,81 @@
+{
+  "name": "transactionDetail",
+  "type": "object",
+  "properties": {
+    "actorId": {
+      "type": "string",
+      "description": "ID for the actor, such as the connector name e.g. sandbox"
+    },
+    "actorVersion": {
+      "type": "string",
+      "description": "Version of the actor library, e.g. API Version"
+    },
+    "actorType": {
+      "enum": [
+        "CONSUMER",
+        "MERCHANT",
+        "CHARGEHIVE",
+        "WALLET",
+        "CONNECTOR",
+        "PAYMENT_PROCESSOR",
+        "PAYMENT_NETWORK",
+        "ACQUIRING_BANK",
+        "ISSUING_BANK",
+        "RECOVERY_AGENT",
+        "EXCHANGE"
+      ],
+      "description": "Role of the party in the transaction"
+    },
+    "failureType": {
+      "enum": [
+        "NONE",
+        "SOFT",
+        "HARD"
+      ]
+    },
+    "responseCode": {
+      "type": "string",
+      "description": "Response code for this actor"
+    },
+    "responseMessage": {
+      "type": "string",
+      "description": "Success / Failure message"
+    },
+    "requestedAmount": {
+      "$ref": "money.json"
+    },
+    "processedAmount": {
+      "$ref": "money.json"
+    },
+    "wasSuccessful": {
+      "type": "bool",
+      "description": "True if the transaction was a succeess"
+    },
+    "transactionId": {
+      "type": "string",
+      "description": "Transaction ID for this actor"
+    },
+    "liability": {
+      "enum": [
+        "UNKNOWN",
+        "MERCHANT",
+        "ISSUER"
+      ]
+    },
+    "addressVerificationResult": {
+      "type": "string",
+      "description": "Address Verification result"
+    },
+    "cvvVerificationResult": {
+      "type": "string",
+      "description": "Card Verification result"
+    },
+    "fraudResult": {
+      "type": "string",
+      "description": "Representation of the fraud result, if one has been carried out"
+    },
+    "threeDsResult": {
+      "$ref": "threeDSResult.json"
+    }
+  }
+}
