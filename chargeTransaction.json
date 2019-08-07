@@ -1,0 +1,51 @@
+{
+  "name": "chargeTransaction",
+  "type": "object",
+  "properties": {
+    "chargeUuid": {
+      "type": "string",
+      "description": "Unique ID for the charge that has been transacted"
+    },
+    "transactionId": {
+      "type": "string",
+      "description": "Unique transaction ID for this transaction"
+    },
+    "paymentMethodType": {
+      "enum": [
+        "CARD",
+        "PAYPAL"
+      ]
+    },
+    "paymentScheme": {
+      "type": "string",
+      "description": "Payment Scheme, e.g. Visa, MasterCard, PayPal Business"
+    },
+    "transactionType": {
+      "enum": [
+        "AUTHORIZE",
+        "CAPTURE",
+        "REFUND",
+        "CANCEL",
+        "DISPUTE"
+      ]
+    },
+    "responseCode": {
+      "type": "string",
+      "description": "ChargeHive Response Code"
+    },
+    "consumerMessage": {
+      "type": "string",
+      "description": "Response message designed to display to the consumer"
+    },
+    "transactionResult": {
+      "enum": [
+        "SUCCESS",
+        "DECLINED",
+        "VERIFY",
+        "PENDING",
+        "PENDING_SUCCESS",
+        "RETRY"
+      ]
+    }
+  }
+}

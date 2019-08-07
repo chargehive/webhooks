@@ -1,0 +1,10 @@
+{
+  "name": "chargeCancel",
+  "type": "object",
+  "properties": {
+    "chargeUuid": {
+      "type": "string",
+      "description": "Unique ID for the charge that has been completed"
+    }
+  }
+}
