@@ -1,5 +1,5 @@
 {
-  "name": "chargeCancel",
+  "name": "chargeComplete",
   "type": "object",
   "properties": {
     "chargeUuid": {
