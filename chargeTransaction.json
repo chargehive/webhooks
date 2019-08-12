@@ -94,6 +94,18 @@
       "items": {
         "$ref": "transactionDetail.json"
       }
+    },
+    "transactionNumber": {
+      "type": "number",
+      "description": "Number of transactions processed against this charge (including this one)"
+    },
+    "attemptNumber": {
+      "type": "number",
+      "description": "Number of attempts to perform this transaction"
+    },
+    "cascadeLevel": {
+      "type": "number",
+      "description": "Retries within the current attempt"
     }
   }
 }
