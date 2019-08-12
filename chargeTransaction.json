@@ -106,6 +106,10 @@
     "cascadeLevel": {
       "type": "number",
       "description": "Retries within the current attempt"
+    },
+    "renewalNumber": {
+      "type": "number",
+      "description": "Renewal number for the subscription"
     }
   }
 }
