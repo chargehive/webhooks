@@ -47,6 +47,9 @@
     "processedAmount": {
       "$ref": "money.json"
     },
+    "feeAmount": {
+      "$ref": "money.json"
+    },
     "wasSuccessful": {
       "type": "boolean",
       "description": "True if the transaction was a succeess"
