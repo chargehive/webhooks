@@ -5,6 +5,9 @@
     "methodId": {
       "type": "string",
       "description": "Unique ID for the method that has been created"
+    },
+    "method": {
+      "$ref": "method.json"
     }
   }
 }

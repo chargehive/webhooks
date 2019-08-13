@@ -1,0 +1,37 @@
+{
+  "name": "method",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique ID for the payment method"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name assigned to the method, either provided or calculated"
+    },
+    "paymentScheme": {
+      "type": "string",
+      "description": "Payment Scheme for the method, e.g. card_visa, paypal_business"
+    },
+    "validFrom": {
+      "type": "number",
+      "description": "Unix timestamp of the valid from date for this merthod"
+    },
+    "expiry": {
+      "type": "number",
+      "description": "Unix timestamp of the expiry date for this merthod"
+    },
+    "type": {
+      "enum": [
+        "CARD",
+        "PAYPAL"
+      ],
+      "description": "Payment method type"
+    },
+    "info": {
+      "type": "object",
+      "description": "Additional information about this payment method"
+    }
+  }
+}
