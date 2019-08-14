@@ -2,10 +2,6 @@
   "name": "methodModified",
   "type": "object",
   "properties": {
-    "methodId": {
-      "type": "string",
-      "description": "Unique ID for the method that has been modified"
-    },
     "method": {
       "$ref": "method.json"
     }

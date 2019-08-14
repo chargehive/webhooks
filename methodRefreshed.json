@@ -2,10 +2,6 @@
   "name": "methodRefreshed",
   "type": "object",
   "properties": {
-    "methodId": {
-      "type": "string",
-      "description": "Unique ID for the method that has been refreshed"
-    },
     "method": {
       "$ref": "method.json"
     }

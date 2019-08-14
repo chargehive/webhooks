@@ -2,9 +2,9 @@
   "name": "methodCreated",
   "type": "object",
   "properties": {
-    "methodId": {
+    "token": {
       "type": "string",
-      "description": "Unique ID for the method that has been created"
+      "description": "Full method ID to use in future calls to chargeHive"
     },
     "method": {
       "$ref": "method.json"
