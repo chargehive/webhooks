@@ -9,7 +9,7 @@
     "method": {
       "$ref": "method.json"
     },
-    "References": {
+    "references": {
       "type": "object",
       "description": "References for this transaction"
     }

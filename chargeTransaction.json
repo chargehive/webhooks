@@ -111,7 +111,7 @@
       "type": "number",
       "description": "Renewal number for the subscription"
     },
-    "References": {
+    "references": {
       "type": "object",
       "description": "References for this transaction"
     }
