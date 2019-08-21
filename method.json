@@ -6,6 +6,10 @@
       "type": "string",
       "description": "Unique ID for the payment method"
     },
+    "version": {
+      "type": "string",
+      "description": "Version assigned to the payment method"
+    },
     "name": {
       "type": "string",
       "description": "Name assigned to the method, either provided or calculated"
