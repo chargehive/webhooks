@@ -8,6 +8,10 @@
     },
     "method": {
       "$ref": "method.json"
+    },
+    "References": {
+      "type": "object",
+      "description": "References for this transaction"
     }
   }
 }

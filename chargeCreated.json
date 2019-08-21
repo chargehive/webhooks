@@ -40,6 +40,10 @@
     "merchantReference": {
       "type": "string",
       "description": "Unique reference for this charge, as defined by the merchant"
+    },
+    "References": {
+      "type": "object",
+      "description": "References for this transaction"
     }
   }
 }
