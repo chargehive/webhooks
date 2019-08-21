@@ -114,6 +114,10 @@
     "references": {
       "type": "object",
       "description": "References for this transaction"
+    },
+    "transactionTime": {
+      "type": "number",
+      "description": "Transaction time, measured in seconds since the Unix epoch"
     }
   }
 }
