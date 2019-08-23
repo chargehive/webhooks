@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "name": "AttemptDetail",
+  "description": "Counts related to a transaction",
+  "properties": {
+    "chargeTransactionNumber": {
+      "type": "number",
+      "description": "Number of transactions performed against the charge"
+    },
+    "chargeAttemptNumber": {
+      "type": "number",
+      "description": "Number of scheduled attempts"
+    },
+    "attemptTransactionNumber": {
+      "type": "number",
+      "description": "Number of transactions performed within the current attempt"
+    },
+    "attemptMethodCascade": {
+      "type": "number",
+      "description": "level of cascade by method"
+    },
+    "attemptConnectorCascade": {
+      "type": "number",
+      "description": "level of cascade by connector"
+    },
+    "isPrimaryMethod": {
+      "type": "boolean",
+      "description": "Was the primary method"
+    }
+  }
+}
