@@ -1,0 +1,37 @@
+{
+  "name": "fraudScan",
+  "type": "object",
+  "properties": {
+    "chargeUuid": {
+      "type": "string",
+      "description": "Unique ID for the charge that has been created"
+    },
+    "fraudScanId": {
+      "type": "string",
+      "description": "Unique reference for this fraud scan"
+    },
+    "suggestedAction": {
+      "type": "string",
+      "enum": [
+        "NO_SUGGESTION",
+        "REVIEW",
+        "ALLOW",
+        "DENY"
+      ],
+      "description": "Recommendation from the fraud scan"
+    },
+    "scanTime": {
+      "type": "number",
+      "description": "Time the scan was performed, output as the number of seconds since unix epoch"
+    },
+    "overallScore": {
+      "$ref": "fraudScore.json"
+    },
+    "subScores": {
+      "type": "array",
+      "items": {
+        "$ref": "fraudScore.json"
+      }
+    }
+  }
+}

@@ -18,7 +18,8 @@
         "methodCreated",
         "methodModified",
         "methodRefreshed",
-        "methodArchived"
+        "methodArchived",
+        "fraudScan"
       ]
     },
     "data": {

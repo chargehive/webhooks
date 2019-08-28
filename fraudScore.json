@@ -1,0 +1,72 @@
+{
+  "name": "fraudScore",
+  "type": "object",
+  "properties": {
+    "score": {
+      "type": "number",
+      "description": "Numerical fraud score"
+    },
+    "riskLevel": {
+      "type": "string",
+      "enum": [
+        "NOT_RATED",
+        "NEGLIGIBLE",
+        "MINOR",
+        "MODERATE",
+        "SIGNIFICANT",
+        "SERVERE"
+      ],
+      "description": "Risk level for this score"
+    },
+    "factor": {
+      "type": "string",
+      "enum": [
+        "VERIFICATION",
+        "VALIDATION",
+        "VELOCITY",
+        "TRUST",
+        "DURATION",
+        "OTHER",
+        ""
+      ],
+      "description": "The factor type"
+    },
+    "factorOn": {
+      "type": "string",
+      "enum": [
+        "ADDRESS",
+        "BROWSER",
+        "IP",
+        "COUNTRY",
+        "STATE",
+        "CITY",
+        "DEVICE",
+        "EMAIL",
+        "EMAIL_DOMAIN",
+        "DATE",
+        "MERCHANT",
+        "ISSUER",
+        "BIN",
+        "METHOD",
+        "CUSTOMER",
+        "AMOUNT",
+        "PHONE",
+        "LANGUAGE",
+        "DISTANCE_TO_BILLING",
+        "DISTANCE_TO_SHIPPING",
+        "DISTANCE_TO_IP",
+        "OTHER",
+        ""
+      ],
+      "description": "What this factor is based on"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Summary of this score"
+    },
+    "data": {
+      "type": "object",
+      "description": "Keyed data related to this score"
+    }
+  }
+}
