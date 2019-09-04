@@ -80,7 +80,7 @@
     "threeDsResult": {
       "$ref": "threeDSResult.json"
     },
-    "startTime": {
+    "transactionTime": {
       "type": "string",
       "description": "Start time of this actor process"
     }
