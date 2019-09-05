@@ -109,6 +109,10 @@
     "transactionTime": {
       "type": "number",
       "description": "Transaction time, measured in seconds since the Unix epoch"
+    },
+    "sourceTransactionId": {
+      "type": "string",
+      "description": "Transaction ID for the source transaction e.g. Original Transaction for a refund, or captureAuth"
     }
   }
 }
