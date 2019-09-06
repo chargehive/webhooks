@@ -114,7 +114,7 @@
       "type": "string",
       "description": "Transaction ID for the source transaction e.g. Original Transaction for a refund, or captureAuth"
     },
-    "connectorID": {
+    "connectorId": {
       "type": "string",
       "description": "Your ID for the connector used"
     },
