@@ -83,6 +83,10 @@
     "transactionTime": {
       "type": "string",
       "description": "Start time of this actor process"
+    },
+    "connectorLibrary": {
+      "type": "string",
+      "description": "connector library ID used to process this transaction"
     }
   }
 }
