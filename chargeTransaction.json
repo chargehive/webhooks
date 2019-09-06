@@ -117,6 +117,18 @@
     "connectorID": {
       "type": "string",
       "description": "Your ID for the connector used"
+    },
+    "connectorLibrary": {
+      "type": "string",
+      "description": "connector library ID used to process this transaction"
+    },
+    "addressVerificationResult": {
+      "type": "string",
+      "description": "Address Verification result"
+    },
+    "cvvVerificationResult": {
+      "type": "string",
+      "description": "Card Verification result"
     }
   }
 }
