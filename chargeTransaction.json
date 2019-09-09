@@ -74,6 +74,13 @@
         "HARD"
       ]
     },
+    "verificationType": {
+      "enum": [
+        "INVALID",
+        "IDENTIFY",
+        "CHALLENGE"
+      ]
+    },
     "verificationStatus": {
       "enum": [
         "NOT_CHECKED",
