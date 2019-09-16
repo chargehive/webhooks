@@ -136,6 +136,10 @@
     "cvvVerificationResult": {
       "type": "string",
       "description": "Card Verification result"
+    },
+    "merchantReference": {
+      "type": "string",
+      "description": "Unique reference for this charge, as defined by the merchant"
     }
   }
 }
