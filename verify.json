@@ -1,0 +1,18 @@
+{
+  "name": "verify",
+  "type": "object",
+  "description": "A verification webhook for testing the complete processing link",
+  "properties": {
+    "requestId": {
+      "type": "string",
+      "description": "Request ID for this verification request"
+    },
+    "verificationKey": {
+      "type": "string",
+      "description": "Unique key for the verification"
+    },
+    "response": {
+      "$ref": "responseDetail.json"
+    }
+  }
+}

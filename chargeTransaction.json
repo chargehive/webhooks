@@ -30,7 +30,9 @@
         "CAPTURE",
         "REFUND",
         "CANCEL",
-        "DISPUTE"
+        "DISPUTE",
+        "VERIFY",
+        "INTERNAL"
       ]
     },
     "responseCode": {
@@ -71,7 +73,9 @@
       "enum": [
         "NONE",
         "SOFT",
-        "HARD"
+        "HARD",
+        "RETRY",
+        "INTERNAL"
       ]
     },
     "verificationType": {

@@ -19,7 +19,8 @@
         "methodModified",
         "methodRefreshed",
         "methodArchived",
-        "fraudScan"
+        "fraudScan",
+        "verify"
       ]
     },
     "data": {

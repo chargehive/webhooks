@@ -30,7 +30,9 @@
       "enum": [
         "NONE",
         "SOFT",
-        "HARD"
+        "HARD",
+        "RETRY",
+        "INTERNAL"
       ]
     },
     "responseCode": {
