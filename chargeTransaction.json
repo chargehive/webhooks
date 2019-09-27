@@ -37,7 +37,6 @@
     },
     "transactionSubType": {
       "enum": [
-        "INVALID",
         "IDENTIFY",
         "CHALLENGE",
         "CAPTURE_AUTH"
