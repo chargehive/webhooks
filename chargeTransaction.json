@@ -35,6 +35,14 @@
         "INTERNAL"
       ]
     },
+    "transactionSubType": {
+      "enum": [
+        "INVALID",
+        "IDENTIFY",
+        "CHALLENGE",
+        "CAPTURE_AUTH"
+      ]
+    },
     "responseCode": {
       "type": "string",
       "description": "ChargeHive Response Code"
