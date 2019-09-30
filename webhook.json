@@ -14,7 +14,7 @@
         "chargeModified",
         "chargeTransaction",
         "chargeCancel",
-        "chargeComplete",
+        "chargeExpired",
         "methodCreated",
         "methodModified",
         "methodRefreshed",
