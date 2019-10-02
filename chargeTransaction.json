@@ -155,6 +155,9 @@
     "merchantReference": {
       "type": "string",
       "description": "Unique reference for this charge, as defined by the merchant"
+    },
+    "responseDetail": {
+      "$ref": "responseDetail.json"
     }
   }
 }
