@@ -22,7 +22,8 @@
         "ACQUIRING_BANK",
         "ISSUING_BANK",
         "RECOVERY_AGENT",
-        "EXCHANGE"
+        "EXCHANGE",
+        "POLICY"
       ],
       "description": "Role of the party in the transaction"
     },

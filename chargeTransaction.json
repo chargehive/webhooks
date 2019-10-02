@@ -13,7 +13,9 @@
     "paymentMethodType": {
       "enum": [
         "CARD",
-        "PAYPAL"
+        "PAYPAL",
+        "DIRECTDEBIT",
+        "CRYPTOCURRENCY"
       ]
     },
     "paymentMethodId": {
@@ -32,6 +34,7 @@
         "CANCEL",
         "DISPUTE",
         "VERIFY",
+        "EXPIRED",
         "INTERNAL"
       ]
     },
@@ -57,7 +60,8 @@
         "VERIFY",
         "PENDING",
         "PENDING_SUCCESS",
-        "RETRY"
+        "RETRY",
+        "EXPIRED"
       ]
     },
     "requestedAmount": {
