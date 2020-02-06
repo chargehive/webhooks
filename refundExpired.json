@@ -1,0 +1,15 @@
+{
+    "name": "refundExpired",
+    "type": "object",
+    "properties": {
+      "chargeUuid": {
+        "type": "string",
+        "description": "Unique ID of the parent charge of the refund that has been expired"
+      },
+      "sourceTransactionID": {
+        "type": "string",
+        "description": "Unique parent ID for the refund that has expired"
+      }
+    }
+  }
+  
