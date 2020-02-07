@@ -1,0 +1,10 @@
+{
+    "name": "methodUnlocked",
+    "type": "object",
+    "properties": {
+      "methodID": {
+        "type": "string",
+        "description": "The ID of the payment method that has been unlocked"
+      }
+    }
+  }
