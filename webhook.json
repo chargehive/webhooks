@@ -15,6 +15,7 @@
         "chargeTransaction",
         "chargeCancel",
         "chargeExpired",
+        "refundExpired",
         "methodCreated",
         "methodModified",
         "methodRefreshed",
