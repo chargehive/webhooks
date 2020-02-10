@@ -19,6 +19,8 @@
         "methodModified",
         "methodRefreshed",
         "methodArchived",
+        "methodLocked",
+        "methodUnlocked",
         "fraudScan",
         "verify"
       ]
