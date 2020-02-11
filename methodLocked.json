@@ -1,0 +1,14 @@
+{
+    "name": "methodLocked",
+    "type": "object",
+    "properties": {
+      "methodID": {
+        "type": "string",
+        "description": "The ID of the payment method that has been locked"
+      },
+      "lockTimestamp": {
+        "type": "number",
+        "description": "Time when the lock will end, output as the number of seconds since unix epoch"
+      }
+    }
+  }
