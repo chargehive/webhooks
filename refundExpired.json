@@ -9,6 +9,14 @@
       "sourceTransactionID": {
         "type": "string",
         "description": "Unique parent ID for the refund that has expired"
+      },
+      "requestedAmountUnits": {
+        "type": "number",
+        "description": "Refund amount in lowest denomination of currency"
+      },
+      "requestedAmountCurrency": {
+        "type": "string",
+        "description": "Refund amount currency"
       }
     }
   }
