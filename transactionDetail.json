@@ -86,6 +86,9 @@
     "transactionTime": {
       "type": "string",
       "description": "Start time of this actor process"
+    },
+    "responseDetail": {
+      "$ref": "responseDetail.json"
     }
   }
 }
