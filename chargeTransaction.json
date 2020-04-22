@@ -13,9 +13,19 @@
     "paymentMethodType": {
       "enum": [
         "CARD",
-        "PAYPAL",
+        "DIGITALWALLET",
         "DIRECTDEBIT",
         "CRYPTOCURRENCY"
+      ]
+    },
+    "paymentMethodProvider": {
+      "enum": [
+        "FORM_USER",
+        "FORM_AGENT",
+        "PAYPAL",
+        "APPLEPAY",
+        "GOOGLEPAY",
+        "AMAZONPAY"
       ]
     },
     "paymentMethodId": {
