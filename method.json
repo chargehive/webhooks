@@ -14,6 +14,26 @@
       "type": "string",
       "description": "Name assigned to the method, either provided or calculated"
     },
+    "type": {
+      "enum": [
+        "CARD",
+        "DIGITALWALLET",
+        "DIRECTDEBIT",
+        "CRYPTOCURRENCY"
+      ],
+      "description": "Payment method type"
+    },
+    "provider": {
+      "enum": [
+        "FORM_USER",
+        "FORM_AGENT",
+        "PAYPAL",
+        "APPLEPAY",
+        "GOOGLEPAY",
+        "AMAZONPAY"
+      ],
+      "description": "Payment method type"
+    },
     "paymentScheme": {
       "type": "string",
       "description": "Payment Scheme for the method, e.g. card_visa, paypal_business"
@@ -25,13 +45,6 @@
     "expiry": {
       "type": "number",
       "description": "Unix timestamp of the expiry date for this merthod"
-    },
-    "type": {
-      "enum": [
-        "CARD",
-        "PAYPAL"
-      ],
-      "description": "Payment method type"
     },
     "info": {
       "type": "object",
