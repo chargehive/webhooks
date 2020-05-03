@@ -20,12 +20,18 @@
     },
     "paymentMethodProvider": {
       "enum": [
-        "FORM_USER",
-        "FORM_AGENT",
+        "FORM",
         "PAYPAL",
         "APPLEPAY",
         "GOOGLEPAY",
         "AMAZONPAY"
+      ]
+    },
+    "paymentMethodInputType": {
+      "enum": [
+        "PHYSICAL",
+        "VIRTUAL",
+        "PROXY"
       ]
     },
     "paymentMethodId": {
