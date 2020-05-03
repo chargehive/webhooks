@@ -25,14 +25,20 @@
     },
     "provider": {
       "enum": [
-        "FORM_USER",
-        "FORM_AGENT",
+        "FORM",
         "PAYPAL",
         "APPLEPAY",
         "GOOGLEPAY",
         "AMAZONPAY"
       ],
       "description": "Payment method type"
+    },
+    "inputType": {
+      "enum": [
+        "PHYSICAL",
+        "VIRTUAL",
+        "PROXY"
+      ]
     },
     "paymentScheme": {
       "type": "string",
