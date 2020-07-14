@@ -1,0 +1,27 @@
+{
+    "name": "methodUpdated",
+    "type": "object",
+    "properties": {
+      "methodID": {
+        "type": "string",
+        "description": "The ID of the payment method that has been updated"
+      },
+      "reason": {
+        "type": "number",
+        "description": "The enumerated reason the payment method was updated"
+      },
+      "hash": {
+        "type": "string",
+        "description": "The updated payment method hash"
+      },
+      "expiryMonth": {
+        "type": "string",
+        "description": "The updated m∂ethod expiry month"
+      },
+      "expiryYear": {
+        "type": "string",
+        "description": "The updated method expiry year"
+      }
+    }
+  }
+  
