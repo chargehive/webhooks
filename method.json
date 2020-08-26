@@ -1,60 +1,69 @@
 {
-  "name": "method",
-  "type": "object",
-  "properties": {
-    "id": {
-      "type": "string",
-      "description": "Unique ID for the payment method"
-    },
-    "version": {
-      "type": "string",
-      "description": "Version assigned to the payment method"
-    },
-    "name": {
-      "type": "string",
-      "description": "Name assigned to the method, either provided or calculated"
-    },
-    "type": {
-      "enum": [
-        "CARD",
-        "DIGITALWALLET",
-        "DIRECTDEBIT",
-        "CRYPTOCURRENCY"
-      ],
-      "description": "Payment method type"
-    },
-    "provider": {
-      "enum": [
-        "FORM",
-        "PAYPAL",
-        "APPLEPAY",
-        "GOOGLEPAY",
-        "AMAZONPAY"
-      ],
-      "description": "Payment method type"
-    },
-    "inputType": {
-      "enum": [
-        "PHYSICAL",
-        "VIRTUAL",
-        "PROXY"
-      ]
-    },
-    "paymentScheme": {
-      "type": "string",
-      "description": "Payment Scheme for the method, e.g. card_visa, paypal_business"
-    },
-    "validFrom": {
-      "type": "number",
-      "description": "Unix timestamp of the valid from date for this merthod"
-    },
-    "expiry": {
-      "type": "number",
-      "description": "Unix timestamp of the expiry date for this merthod"
-    },
-    "info": {
-      "type": "object",
-      "description": "Additional information about this payment method"
+    "name": "method",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Unique ID for the payment method"
+        },
+        "version": {
+            "type": "string",
+            "description": "Version assigned to the payment method"
+        },
+        "name": {
+            "type": "string",
+            "description": "Name assigned to the method, either provided or calculated"
+        },
+        "type": {
+            "enum": [
+                "CARD",
+                "DIGITALWALLET",
+                "DIRECTDEBIT",
+                "CRYPTOCURRENCY"
+            ],
+            "description": "Payment method type"
+        },
+        "provider": {
+            "enum": [
+                "FORM",
+                "PAYPAL",
+                "APPLEPAY",
+                "GOOGLEPAY",
+                "AMAZONPAY"
+            ],
+            "description": "Payment method type"
+        },
+        "inputType": {
+            "enum": [
+                "PHYSICAL",
+                "VIRTUAL",
+                "PROXY"
+            ]
+        },
+        "paymentScheme": {
+            "type": "string",
+            "description": "Payment Scheme for the method, e.g. card_visa, paypal_business"
+        },
+        "validFrom": {
+            "type": "number",
+            "description": "Unix timestamp of the valid from date for this merthod"
+        },
+        "expiry": {
+            "type": "number",
+            "description": "Unix timestamp of the expiry date for this merthod"
+        },
+        "info": {
+            "type": "object",
+            "description": "Additional information about this payment method"
+        },
+        "status": {
+            "enum": [
+                "ACTIVE",
+                "PENDING",
+                "CANCELLED",
+                "SUSPENDED"
+            ],
+            "description": "Status of payment method"
+        }
     }
-  }
 }
