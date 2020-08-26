@@ -55,6 +55,15 @@
     "info": {
       "type": "object",
       "description": "Additional information about this payment method"
+    },
+    "status": {
+      "enum": [
+        "ACTIVE",
+        "PENDING",
+        "CANCELLED",
+        "SUSPENDED"
+      ],
+      "description": "Status of payment method"
     }
   }
 }
