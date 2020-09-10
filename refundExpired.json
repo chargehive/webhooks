@@ -6,9 +6,9 @@
         "type": "string",
         "description": "Unique ID of the parent charge of the refund that has been expired"
       },
-      "sourceTransactionID": {
+      "transactionID": {
         "type": "string",
-        "description": "Unique parent ID for the refund that has expired"
+        "description": "Unique ID for the refund transaction that has expired"
       },
       "requestedAmountUnits": {
         "type": "number",
