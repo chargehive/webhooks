@@ -4,6 +4,10 @@
   "properties": {
     "method": {
       "$ref": "method.json"
+    },
+    "meta": {
+      "type": "object",
+      "description": "Additional response information"
     }
   }
 }
