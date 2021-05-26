@@ -2,8 +2,13 @@
   "name": "methodArchived",
   "type": "object",
   "properties": {
-    "method": {
-      "$ref": "method.json"
+    "token": {
+      "type": "string",
+      "description": "The ID of the method"
+    },
+    "success": {
+      "type": "boolean",
+      "description": "If the method was updated"
     }
   }
 }
