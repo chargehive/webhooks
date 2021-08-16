@@ -2,7 +2,7 @@
   "name": "methodSuspended",
   "type": "object",
   "properties": {
-    "token": {
+    "methodID": {
       "type": "string",
       "description": "The ID of the method"
     },
