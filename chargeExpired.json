@@ -2,9 +2,29 @@
   "name": "chargeExpired",
   "type": "object",
   "properties": {
-    "chargeUuid": {
+    "chargeID": {
       "type": "string",
       "description": "Unique ID for the charge that has been expired"
+    },
+    "amount": {
+      "type": "number",
+      "description": "The amount of the charge"
+    },
+    "currency": {
+      "type": "string",
+      "description": "The currency of the amount"
+    },
+    "chargeTimestamp": {
+      "type": "number",
+      "description": "The unix timetsamp of when the charge was attempted"
+    },
+    "renewalNumber": {
+      "type": "number",
+      "description": "The charge renewal number"
+    },
+    "attemptNumber": {
+      "type": "number",
+      "description": "The charge attempt number"
     }
   }
 }
