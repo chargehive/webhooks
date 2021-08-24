@@ -25,6 +25,10 @@
     "attemptNumber": {
       "type": "number",
       "description": "The charge attempt number"
+    },
+    "transactionNumber": {
+      "type": "number",
+      "description": "The charge transaction number"
     }
   }
 }
