@@ -1,0 +1,42 @@
+{
+  "name": "transactionStopped",
+  "type": "object",
+  "properties": {
+    "chargeID": {
+      "type": "string",
+      "description": "Unique ID for the charge that has been expired"
+    },
+    "amount": {
+      "type": "number",
+      "description": "The amount of the charge"
+    },
+    "currency": {
+      "type": "string",
+      "description": "The currency of the amount"
+    },
+    "chargeTimestamp": {
+      "type": "number",
+      "description": "The unix timetsamp of when the charge was attempted"
+    },
+    "renewalNumber": {
+      "type": "number",
+      "description": "The charge renewal number"
+    },
+    "attemptNumber": {
+      "type": "number",
+      "description": "The charge attempt number"
+    },
+    "transactionNumber": {
+      "type": "number",
+      "description": "The charge transaction number"
+    },
+    "stopReason": {
+      "type": "string",
+      "description": "The reason why the trasaction was stopped"
+    },
+    "transactionType": {
+      "type": "string",
+      "description": "The type of transaction"
+    }
+  }
+}
