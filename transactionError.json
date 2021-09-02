@@ -30,9 +30,9 @@
       "type": "number",
       "description": "The charge transaction number"
     },
-    "stopReason": {
+    "reason": {
       "type": "string",
-      "description": "The reason why the trasaction was stopped"
+      "description": "The reason why the trasaction encounterd an error"
     },
     "transactionType": {
       "type": "string",
