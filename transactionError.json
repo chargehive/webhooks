@@ -32,7 +32,7 @@
     },
     "reason": {
       "type": "string",
-      "description": "The reason why the trasaction encounterd an error"
+      "description": "The reason why the transaction encounterd an error"
     },
     "transactionType": {
       "type": "string",
