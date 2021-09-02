@@ -23,7 +23,8 @@
         "methodLocked",
         "methodUnlocked",
         "fraudScan",
-        "verify"
+        "verify",
+        "transactionError"
       ]
     },
     "data": {
