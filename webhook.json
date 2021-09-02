@@ -24,7 +24,7 @@
         "methodUnlocked",
         "fraudScan",
         "verify",
-        "transactionStopped"
+        "transactionError"
       ]
     },
     "data": {

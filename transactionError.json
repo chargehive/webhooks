@@ -1,5 +1,5 @@
 {
-  "name": "transactionStopped",
+  "name": "transactionError",
   "type": "object",
   "properties": {
     "chargeID": {
