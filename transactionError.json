@@ -32,11 +32,15 @@
     },
     "reason": {
       "type": "string",
-      "description": "The reason why the transaction encounterd an error"
+      "description": "The reason why the transaction encountered an error"
     },
     "transactionType": {
       "type": "string",
       "description": "The type of transaction"
+    },
+    "timestamp": {
+      "type": "number",
+      "description": "Time the error occurred"
     }
   }
 }
