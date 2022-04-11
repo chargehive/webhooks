@@ -64,6 +64,26 @@
         "SUSPENDED"
       ],
       "description": "Status of payment method"
+    },
+    "tokenID": {
+      "type": "string",
+      "description": "Unique ID for the payments underlying token"
+    },
+    "billingProfileID": {
+      "type": "string",
+      "description": "ID for the billing profile"
+    },
+    "profileFingerprint": {
+      "type": "string",
+      "description": "Unique Fingerprint for the method across all methods by this profile"
+    },
+    "merchantFingerprint": {
+      "type": "string",
+      "description": "Unique Fingerprint for the method across the merchant"
+    },
+    "tokenExpiry": {
+      "type": "number",
+      "description": "The expiry date of the underlying token"
     }
   }
 }
