@@ -182,6 +182,12 @@
     "arn": {
       "type": "string",
       "description": "Acquirer Reference Number"
+    },
+    "fraudScanResults": {
+      "type": "array",
+      "items": {
+        "$ref": "fraudScan.json"
+      }
     }
   }
 }
