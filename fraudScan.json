@@ -10,6 +10,10 @@
       "type": "string",
       "description": "Unique reference for this fraud scan"
     },
+    "connectorLibrary": {
+      "type": "string",
+      "description": "Connector used for this fraud scan"
+    },
     "suggestedAction": {
       "type": "string",
       "enum": [
