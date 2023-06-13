@@ -2,6 +2,10 @@
   "name": "methodRefreshed",
   "type": "object",
   "properties": {
+    "token": {
+      "type": "string",
+      "description": "Full method ID to use in future calls to chargeHive"
+    },
     "method": {
       "$ref": "method.json"
     },
