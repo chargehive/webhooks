@@ -38,6 +38,10 @@
         "PROXY"
       ]
     },
+    "paymentMethodIssuer": {
+      "type": "string",
+      "description": "Payment Method Issuer, e.g. HSBC"
+    },
     "paymentMethodId": {
       "type": "string",
       "description": "ID for the payment method token used"
