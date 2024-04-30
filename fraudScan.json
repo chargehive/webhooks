@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "fraudScan",
   "type": "object",
   "properties": {
@@ -36,6 +37,10 @@
       "items": {
         "$ref": "fraudScore.json"
       }
+    },
+    "references": {
+      "type": "object",
+      "description": "References associated with this scan"
     }
   }
 }
