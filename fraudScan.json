@@ -37,6 +37,10 @@
       "items": {
         "$ref": "fraudScore.json"
       }
+    },
+    "references": {
+      "type": "object",
+      "description": "References associated with this scan"
     }
   }
 }
