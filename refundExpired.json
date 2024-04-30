@@ -1,23 +1,24 @@
 {
-    "name": "refundExpired",
-    "type": "object",
-    "properties": {
-      "chargeUuid": {
-        "type": "string",
-        "description": "Unique ID of the parent charge of the refund that has been expired"
-      },
-      "transactionID": {
-        "type": "string",
-        "description": "Unique ID for the refund transaction that has expired"
-      },
-      "requestedAmountUnits": {
-        "type": "number",
-        "description": "Refund amount in lowest denomination of currency"
-      },
-      "requestedAmountCurrency": {
-        "type": "string",
-        "description": "Refund amount currency"
-      }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "refundExpired",
+  "type": "object",
+  "properties": {
+    "chargeUuid": {
+      "type": "string",
+      "description": "Unique ID of the parent charge of the refund that has been expired"
+    },
+    "transactionID": {
+      "type": "string",
+      "description": "Unique ID for the refund transaction that has expired"
+    },
+    "requestedAmountUnits": {
+      "type": "number",
+      "description": "Refund amount in lowest denomination of currency"
+    },
+    "requestedAmountCurrency": {
+      "type": "string",
+      "description": "Refund amount currency"
     }
   }
+}
   
