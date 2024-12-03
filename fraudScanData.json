@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "name": "fraudScan",
+  "name": "fraudScanData",
   "type": "object",
   "properties": {
     "chargeUuid": {
@@ -9,13 +9,11 @@
     },
     "fraudScanId": {
       "type": "string",
-      "description": "Unique reference for this fraud scan",
-      "deprecated": true
+      "description": "Unique reference for this fraud scan"
     },
     "connectorLibrary": {
       "type": "string",
-      "description": "Connector used for this fraud scan",
-      "deprecated": true
+      "description": "Connector used for this fraud scan"
     },
     "suggestedAction": {
       "type": "string",
@@ -32,24 +30,22 @@
       "description": "Time the scan was performed, output as the number of seconds since unix epoch"
     },
     "overallScore": {
-      "$ref": "fraudScore.json",
-      "deprecated": true
+      "$ref": "fraudScore.json"
     },
     "subScores": {
       "type": "array",
       "items": {
         "$ref": "fraudScore.json"
-      },
-      "deprecated": true
+      }
     },
     "references": {
       "type": "object",
       "description": "References associated with this scan"
     },
-    "scanData": {
+    "subScans": {
       "type": "array",
       "items": {
-        "$ref": "fraudScanData.json"
+        "$ref": "fraudScan.json"
       }
     }
   }
