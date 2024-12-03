@@ -30,6 +30,18 @@
     "transactionNumber": {
       "type": "number",
       "description": "The charge transaction number"
+    },
+    "policyID": {
+      "type": "string",
+      "description": "ID of the policy triggering the expiry"
+    },
+    "reason": {
+      "type": "string",
+      "description": "Reason for the charge expiry"
+    },
+    "reasonCode": {
+      "type": "number",
+      "description": "Reason code for the expiry"
     }
   }
 }
