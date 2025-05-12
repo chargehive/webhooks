@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "chargeCredit",
+  "type": "object",
+  "properties": {
+    "chargeUuid": {
+      "type": "string",
+      "description": "Unique ID for the charge that has been transacted"
+    },
+    "billingProfileId": {
+      "type": "string",
+      "description": "Billing Profile ID of the charge"
+    },
+    "transactionId": {
+      "type": "string",
+      "description": "Unique transaction ID for this credit"
+    },
+    "reason": {
+      "type": "string",
+      "description": "Reason for the credit"
+    },
+    "creditedBy": {
+      "type": "string",
+      "description": "User ID or Configuration ID responsible for the credit"
+    },
+    "creditedAmount": {
+      "$ref": "money.json"
+    }
+  }
+}
